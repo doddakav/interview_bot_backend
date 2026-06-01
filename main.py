@@ -23,7 +23,7 @@ async def generate_question(request: Request):
     ways = data.get("ways")
 
     prompt = f"""
-    Generate the 
+    Generate the questions on
 
     Topic: {topic}
     Difficulty: {level}
