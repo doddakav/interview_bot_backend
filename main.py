@@ -39,7 +39,6 @@ Question type guidelines:
 - Behavioral: Ask about the candidate's experience, problem-solving approach, teamwork, or decision-making.
 
 Requirements:
-- Generate exactly 5 questions.
 - Use only the requested question types.
 - Questions must be relevant to the specified topic.
 - Match the specified difficulty.
@@ -48,14 +47,6 @@ Requirements:
 - Make questions progressively challenging when possible.
 - Keep the wording clear and professional.
 - Do not provide explanations or answers unless required by the question type.
-
-Return the result in this format:
-
-1. [Question]
-2. [Question]
-3. [Question]
-4. [Question]
-5. [Question]
 """
 
     response = client.chat.completions.create(
