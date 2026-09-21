@@ -32,7 +32,7 @@ async def generate_question(request: Request):
     """
 
     response = client.chat.completions.create(
-        model="openai/gpt-oss-20b",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "user",
